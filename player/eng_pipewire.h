@@ -28,8 +28,6 @@ struct data {
     uint16_t  bits_per_sample;
     float accumulator;
 };
-
-void fill_f32(struct data *d, void *dest, int n_frames);
 void on_process(void *userdata);
 
 extern const struct pw_stream_events stream_events;
