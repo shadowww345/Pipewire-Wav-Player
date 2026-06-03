@@ -4,6 +4,6 @@
 
 ### Using Player
 ````
-./wav_player music.wav 10
+./player music.wav 10
 ````
 **The first argument is wav file the second argument is sound volume**
