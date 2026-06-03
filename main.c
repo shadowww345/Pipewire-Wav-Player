@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
-#include "audio_engine/eng_pipewire.h"
-#include "audio_engine/wav.h"
+#include "player/eng_pipewire.h"
+#include "player/wav.h"
 
 int main(int argc, char *argv[]) {
 	struct data data = { 0, };
